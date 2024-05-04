@@ -3,7 +3,9 @@
 
 section .data
     msg db 'Hello World!', 0xA
-    tam equ $-msg
+    msgC db 'Learn Assembly', 0xA
+    tam equ $- msg
+
 section .text
 
 global _start
